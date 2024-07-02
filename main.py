@@ -1,18 +1,12 @@
 
 def getInput():
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+    my_string = input("Enter multiple values") # Prompt user
+    my_string_values = my_string.split() # Split input into list of strings
+    my_string_ints = [int(n) for n in my_string_values] # Convert to integers
+    return my_string_ints
 
 
 def listSum(list1, list2):
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
 
 
 def main():
